@@ -1,0 +1,11 @@
+n=int(input("enter the 4 digit number : "))
+a=n%10
+n=n//10
+b=n%10
+n=n//10
+c=n%10
+n=n//10
+print("fourth digit is =",a)
+print("third digit is =",b)
+print("second digit is =",c)
+print("first digit is =",n)
